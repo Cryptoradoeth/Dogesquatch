@@ -1,0 +1,29 @@
+{
+  "remappings": [
+    "ds-test/=lib/forge-std/lib/ds-test/src/",
+    "forge-std/=lib/forge-std/src/"
+  ],
+  "optimizer": {
+    "enabled": true,
+    "runs": 200
+  },
+  "metadata": {
+    "useLiteralContent": false,
+    "bytecodeHash": "ipfs",
+    "appendCBOR": true
+  },
+  "outputSelection": {
+    "*": {
+      "*": [
+        "evm.bytecode",
+        "evm.deployedBytecode",
+        "devdoc",
+        "userdoc",
+        "metadata",
+        "abi"
+      ]
+    }
+  },
+  "evmVersion": "paris",
+  "libraries": {}
+}
